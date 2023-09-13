@@ -1,0 +1,32 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/include/"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE",
+                "GLEW_STATIC"
+            ],
+            "cStandard": "c17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "windows-gcc-x64",
+            "compilerPath": "C:/MinGW/bin/g++.exe",
+            "compilerArgs": [
+                "-L${workspaceFolder}/lib/GLEW/",
+                "-L${workspaceFolder}/lib/SDL/",
+                "-lglew32s",
+                "-lSDL2",
+                "-lSDL2main",
+                "-lgdi32",
+                "-lopengl32",
+                "-I${workspaceFolder}/include/"
+            ]
+        }
+    ],
+    "version": 4
+}
